@@ -1,0 +1,61 @@
+html{
+    box-sizing:border-box;
+
+}
+
+
+body {
+    background-color: rgb(255, 187, 221);
+    margin:8px;
+    padding:0px;
+}
+
+#img{
+    width:200px;
+}
+
+div{
+    width:200px;
+}
+
+/*this is the blue shape*/
+
+#blue{
+    background-color: rgb(94, 146, 167);
+    height: 60px;
+}
+
+/*this is the yellow shape*/
+
+#yellow{
+    background-color: rgb(236, 236, 138);
+    height: 48px;
+}
+
+/*this is the black shape*/
+
+#black{
+    background-color: rgb(20, 17, 37);
+    height: 52px;
+}
+
+/*this is the gold shape*/
+
+#gold{
+    background-color: rgb(199, 150, 28);
+    height: 42px;
+}
+
+/*this is the green shape*/
+
+#green{
+    background-color: rgb(73, 131, 73);
+    height: 73px;
+}
+
+/*this is the second gold shape*/
+
+#gold2{
+    background-color: rgb(199, 150, 28);
+    height: 45px;
+}

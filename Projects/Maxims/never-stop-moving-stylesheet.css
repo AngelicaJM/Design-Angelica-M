@@ -1,0 +1,35 @@
+body {
+    width: 100vw;
+    background-color: black;
+    color: rgb(164, 247, 184);
+    font-size: 48px;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; 
+}
+  
+.moving {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bounce, skewing;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-400px); }
+    75%  { transform: translateX(400 px); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes skewing {
+    0%   { transform: skew(-15deg); }
+    25%  { transform: skew(15deg); }
+    50%  { transform: skew(-15deg); }
+    75%  { transform: skew(15deg); }
+    100% { transform: skew(-15deg); }
+  }

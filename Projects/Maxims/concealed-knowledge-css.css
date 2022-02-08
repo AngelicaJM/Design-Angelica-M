@@ -1,0 +1,20 @@
+body {
+    width: 100vw;
+    background-color: black;
+    color: rgb(245, 122, 208);
+    font-size: 48px;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; 
+}
+  
+.middleboiiii {
+    color:black;
+    transition: color 2s ease-in 100ms;
+}
+.middleboiiii:hover {
+    color: rgb(245, 122, 208);
+  }

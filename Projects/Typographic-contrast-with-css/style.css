@@ -1,0 +1,23 @@
+
+
+body {background-color:bisque;
+
+}
+
+h1 {
+    color:deeppink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color:fuchsia;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+    color: blue;
+}
+
+.shout {color:blueviolet;
+
+}
