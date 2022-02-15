@@ -1,0 +1,83 @@
+body {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(193, 164, 247);
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.home {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+a:hover {
+    background-color: rgb(255, 190, 241);
+    color: rgb(248, 47, 205);
+}
+
+.previous {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+.next {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+.flip {
+    animation: 1s anim-flipX ease infinite;
+  }
+  @keyframes anim-flipX {
+    0% {
+      opacity: 0;
+      transform: rotateX(90def);
+    }
+    50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+    100% {
+      /* animate nothing to pause animation at the end */
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+  }
+  
+  .pop-out {
+    animation: 2s anim-popoutin ease infinite;
+  }
+  
+  @keyframes anim-popoutin {
+    0% {
+      color: black;
+      transform: scale(0);
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    25% {
+      color: rgb(255, 0, 179);
+      transform: scale(2);
+      opacity: 1;
+      text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      color: black;
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      /* animate nothing to add pause at the end of animation */
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+  }

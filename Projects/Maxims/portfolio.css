@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    background-color:#ffffff;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    background: yellowgreen;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+  }
+
+h1 { color:rgb(255, 164, 164)}
+
+h1 {font-family: 'Patrick Hand', cursive; font-size: 100px;}

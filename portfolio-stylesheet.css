@@ -1,0 +1,30 @@
+.floating-menu {
+    font-family: sans-serif;
+    background-image: url(https://i.ibb.co/wcSHLBW/Screenshot-Capture-2022-02-15-01-13-37.png);
+    background-size: 200px;
+    padding: 5px;;
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h2 {
+    font-size: 0.9em;
+    margin: 0;
+    color: white;
+  }
+
+  .myBox {
+    border: none;
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    width: 200px;
+    height: 150px;
+    overflow: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+        }

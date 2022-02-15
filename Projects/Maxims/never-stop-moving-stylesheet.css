@@ -5,31 +5,75 @@ body {
     font-size: 48px;
 }
 
-div {
-    width: 60%;
-    margin: 0 auto;
-    text-align: center; 
-}
-  
-.moving {
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-    animation-name: bounce, skewing;
-    animation-timing-function: ease;
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px;
 }
 
-@keyframes bounce {
-    0%   { transform: translateX(0); }
-    25%  { transform: translateX(-400px); }
-    75%  { transform: translateX(400 px); }
-    100% { transform: translateX(0); }
+.home {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+a:hover {
+    background-color: rgb(255, 190, 241);
+    color: rgb(248, 47, 205);
+}
+
+.previous {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+.next {
+    background-color: rgb(243, 109, 221);
+    color: rgb(116, 45, 104);
+}
+
+.footer { 
+    position: fixed;
+    left: 20;
+    bottom: 20;
+    width: 100%;
+    color: white;
+    text-align: left;
+
+}  
+
+*{
+    padding: 0;
+    margin: 0;
   }
-
-  @keyframes skewing {
-    0%   { transform: skew(-15deg); }
-    25%  { transform: skew(15deg); }
-    50%  { transform: skew(-15deg); }
-    75%  { transform: skew(15deg); }
-    100% { transform: skew(-15deg); }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  .center{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .center h1{
+    color: rgba(255,0,0,0.1);
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-size: cover;
+    background-image: url(https://78.media.tumblr.com/5e0c419865c97272d1ca83b7e05b30e3/tumblr_np63mcG42Z1tgoxx3o1_500.gif);
+    -webkit-background-clip: text;
+    animation: background-text-animation 15s linear infinite;
+  }
+  @keyframes background-text-animation {
+    0%{
+      background-position: left 0px top 50%;
+    }
+    50%{
+      background-position: left 1500px top 50%;
+    }
+    100%{
+      background-position: left 0px top 50%;
+    }
   }

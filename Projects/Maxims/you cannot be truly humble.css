@@ -6,10 +6,6 @@ body {
     font-family:sans-serif;
 }
 
-h1{ font-family: 'Staatliches', cursive; 
-}
-
-
 div {
     width: 60%;
     margin: 0 auto;
@@ -30,6 +26,16 @@ div {
     border-radius: 10px;
 }
 
+.footer { 
+    position: fixed;
+    left: 20;
+    bottom: 20;
+    width: 100%;
+    color: white;
+    text-align: left;
+
+}
+
 .home {
     background-color: rgb(243, 109, 221);
     color: rgb(116, 45, 104);
@@ -48,4 +54,37 @@ a:hover {
 .next {
     background-color: rgb(243, 109, 221);
     color: rgb(116, 45, 104);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(173, 205, 247);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
 }
