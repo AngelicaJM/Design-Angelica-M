@@ -21,8 +21,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
   <a href="Portfolio Revamp.html" onclick="w3_close()" class="w3-bar-item w3-button visited colorchange">HOME</a> 
   <a href="Projects.html" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
-  <a href="Digital-art-page.html" onclick="w3_close()" class="w3-bar-item w3-button">DIGITAL ART</a>   
-  <a href="oil-painting.html" onclick="w3_close()" class="w3-bar-item w3-button">OIL PAINTINGS</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">DIGITAL ART</a>   
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">GRAPHIC DESIGN</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">OIL PAINTINGS</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">STORYBOARDS</a>
   <a href="https://stratosfear.neocities.org/The%20Sunset%20Points%20Home%20(Wherever%20you%20are.).html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">PLAY A GAME ABOUT CATS</a>   
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
@@ -50,7 +52,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <tr>
           <td>
               <figure class="snip1193">
-                <a href="Digital-art-page.html" target="_blank">
+                <a href="portfolio.html" target="_blank">
                 <img src="https://i.ibb.co/4VcL591/angelica-malacara-not-so-soft-virgil.jpg" style="width:100%" alt="Traditional oil painting">
                 <figcaption><h4>DIGITAL ART</h4>
                 </figcaption>
@@ -59,7 +61,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           </td>
           <td>
             <figure class="snip1193">
-              <a href="oil-painting.html" target="_blank">
+              <a href="portfolio.html" target="_blank">
             <img src="https://i.ibb.co/hFPHvkH/jd-HXt5-D4zwe8y-GNvfg4ce-e-Dh-EQus-U3-Reuhwj-JJ82-Mph-Nxxjwo-Do-I5m-FZGLAQXK494-Dk-Mmouf-Jb-Xpq4bt-A.jpg" style="width:100%" alt="Conceptual art, digital">
             <figcaption><h4>OIL PAINTINGS</h4>
             </figcaption>
@@ -69,17 +71,17 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </tr>
         <tr>
           <td><figure class="snip1193">
-            <a href="Projects.html" target="_blank">
+            <a href="portfolio.html" target="_blank">
             <img src="https://i.ibb.co/G7hXw7r/malacara-angelica-infographic-poster.png" class="animate" style="width: 400px;" alt="Traditional oil portrait">
-            <figcaption><h4>Projects</h4>
+            <figcaption><h4>GRAPHIC DESIGN</h4>
             </figcaption>
             </a>
             </figure>
           </td> 
           <td><figure class="snip1193">
-            <a href="https://stratosfear.neocities.org/The%20Sunset%20Points%20Home%20(Wherever%20you%20are.).html" target="_blank">
-            <img src="https://i.ibb.co/wsLr24j/cat-game.png" class="animate" style="width: 500px;" alt="Conceptual art, digital"">
-            <figcaption><h4>Play my game about cats</h4>
+            <a href="portfolio.html" target="_blank">
+            <img src="https://i.ibb.co/V3DLYJp/angelica-malacara-sketch.jpg" class="animate" style="width: 500px;" alt="Conceptual art, digital"">
+            <figcaption><h4>STORYBOARDS</h4>
             </figcaption>
             </a>
           </figure></td>
@@ -113,9 +115,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Interested in working with me? Great!</p>
-
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom"><a href="mailto:ajm461@scarletmail.rutgers.edu">Shoot me an email!</a></button>
+      <p>Interested in working with me? Great! fill me in with the details using the form below.</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
       </form>
     </div>
 </div>
